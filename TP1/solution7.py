@@ -1,5 +1,6 @@
 #Exericse 7 Digit Tool 
 def digit_sum(n):
+    n = abs(n)
     total_sum=0
     while n>0:
         total_sum = total_sum + n % 10

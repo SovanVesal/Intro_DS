@@ -1,7 +1,6 @@
-#Exercise 6 Leap Day in a month 
+
 def is_leap(year):
     return( year % 4 ==0 and year % 100 != 0 ) or (year%400==0)
-
 def day_in_month(month,year):
     if month <1 or month >12:
         return None
@@ -24,4 +23,4 @@ for year in range (2000,2101):
     if is_leap(year):
         leap_count += 1
 
-        print(f"This is the leap days:{leap_count}")
+print(f"This is the leap days:{leap_count}")
